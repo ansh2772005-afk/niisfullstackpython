@@ -1,0 +1,8 @@
+# PROGRAM 5: Area of Triangle
+#Write a Python program to calculate area of a triangle.
+print("enter base")
+b=float(input())
+print("enter height")
+h=float(input())
+area=0.5*b*h
+print("area=",area)

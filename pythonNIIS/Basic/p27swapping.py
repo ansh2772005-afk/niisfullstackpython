@@ -1,0 +1,12 @@
+#PROGRAM 27: Swapping Using Mathematic
+#Write a Python program to swap two numbers using mathematical operations.
+
+print("enter a")
+a=int(input())
+print("enter b")
+b=int(input())
+a=a+b
+b=a-b
+a=a-b
+print("a=",a)
+print("b=",b)

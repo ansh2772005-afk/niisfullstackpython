@@ -1,0 +1,7 @@
+ #PROGRAM 49: Character to ASCII
+#Write a Python program to find ASCII value of a character.
+
+print("enter character")
+ch=input()
+val=ord(ch)
+print("ascii value=",val)
