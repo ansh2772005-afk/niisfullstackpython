@@ -1,7 +1,19 @@
-print("enter a number")
-no=int(input())
-if no<0:
-  no=-no
-if no>9:
-   if no<100:
-     print("2 digit number")
+print("Enter two numbers:")
+no1 = int(input("First number: "))
+no2 = int(input("Second number: "))
+print("\nEnter an operator (+, -, *, //):")
+op = input("Operator: ")
+
+if op == "+":
+    print("Result =", no1 + no2)
+elif op == "-":
+    print("Result =", no1 - no2)
+elif op == "*":
+    print("Result =", no1 * no2)
+elif op == "//":
+    if no2 != 0:
+        print("Result =", no1 // no2)
+    else:
+        print("Division by zero is not allowed.")
+else:
+    print("Invalid operator")                                                  
